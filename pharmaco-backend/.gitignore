@@ -1,0 +1,12 @@
+# Node.js
+node_modules/  # Never commit dependencies!
+.env          # Environment variables (API keys, DB credentials)
+npm-debug.log
+.DS_Store     # macOS clutter
+
+# Optional (add if needed)
+.idea/        # JetBrains IDE files
+.vscode/      # VSCode settings
+dist/         # Compiled JS (if using TypeScript/Babel)
+coverage/     # Test coverage reports
+uploads/      # User-uploaded files (if your app handles media)
